@@ -4,13 +4,9 @@ Spyder Editor
 
 This is a temporary script file.
 """
-x=0
-y=0
-n_cartas = input(x,y)
 
-
-jugador1 = 0
-jugador2 = 0
+n_cartas = int(input("ingrese la cantidad de cartas que se jugarán:"))
+print("El numero de cartas que se jugarán seran:", n_cartas, ", es dicer habran ", n_cartas/2, "pares en juego.")
 
 
 
